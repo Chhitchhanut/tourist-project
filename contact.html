@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+      gap: 2rem;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      flex: 1;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .contact-form h2 {
+      margin-bottom: 1rem;
+      color: #003366;
+    }
+
+    .contact-form label {
+      display: block;
+      margin: 0.5rem 0 0.2rem;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      background: #003366;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #0055aa;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      flex: 1;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .contact-info h2 {
+      margin-bottom: 1rem;
+      color: #003366;
+    }
+
+    .contact-info p {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #003366;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you!</p>
+  </header>
+
+  <div class="container">
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send us a message</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..." required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your email..." required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Our Contact Details</h2>
+      <p><strong>Address:</strong> Phnom Penh, Cambodia</p>
+      <p><strong>Email:</strong> alumni@passerellesnumeriques.org</p>
+      <p><strong>Phone:</strong> +855 123 456 789</p>
+      <p><strong>Website:</strong> www.passerrallesnumeriques.org/cambodia</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Passerelles Numériques Cambodia. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
